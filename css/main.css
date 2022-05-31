@@ -28,6 +28,7 @@ ul, li {
 html, body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
+  line-height: 1.687;
   color: #323232; }
 
 .container {
@@ -138,11 +139,42 @@ html, body {
 
 .clients {
   padding-top: 100px;
-  padding-bottom: 90px; }
+  padding-bottom: 45px; }
 
 .clients_row {
   display: flex;
   justify-content: space-between;
   align-items: center; }
+
+.objects {
+  padding-top: 45px;
+  padding-bottom: 80px; }
+
+.objects__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.objects__text {
+  max-width: 543px;
+  padding-left: 181px; }
+  .objects__text p + p {
+    margin-top: 20px; }
+
+.object__title {
+  margin-bottom: 20px; }
+
+.objects_button {
+  margin-top: 40px; }
+
+.title {
+  font-size: 42px;
+  line-height: 1.476;
+  font-weight: 700; }
+
+.img-card__img {
+  border-radius: 20px 20px 20px 0; }
+  .img-card--rounded .img-card__img {
+    border-radius: 20px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,11 @@
+.img-card {
+
+}
+
+.img-card__img {
+  border-radius: 20px 20px 20px 0;
+
+  .img-card--rounded & {
+    border-radius: 20px;
+  }
+}
