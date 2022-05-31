@@ -83,6 +83,12 @@ html, body {
   position: relative;
   z-index: 9; }
 
+.header__img img {
+  border-radius: 40px 40px 40px 0; }
+
+.header__form {
+  margin-top: 42px; }
+
 .form {
   background: #FFFFFF;
   box-shadow: 0 17px 42px rgba(0, 0, 0, 0.12);
@@ -129,5 +135,14 @@ html, body {
   transition: background-color 0.2s ease-in; }
   .button:hover {
     background-color: #ff6a00; }
+
+.clients {
+  padding-top: 100px;
+  padding-bottom: 90px; }
+
+.clients_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
 
 /*# sourceMappingURL=main.css.map */
