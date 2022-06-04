@@ -174,10 +174,11 @@ html, body {
   align-items: flex-start; }
 
 .objects__text {
-  max-width: 693px;
+  width: 374px;
   padding-left: 181px;
-  flex-shrink: 0;
-  padding-right: 150px; }
+  padding-right: 150px;
+  box-sizing: content-box;
+  flex-shrink: 0; }
   .objects__text p + p {
     margin-top: 20px; }
 
