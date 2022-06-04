@@ -145,6 +145,28 @@ html, body {
   transition: background-color 0.2s ease-in; }
   .button:hover {
     background-color: #ff6a00; }
+  .button--white {
+    background-color: #ffffff;
+    color: #323232;
+    transition: background-color 0.2s, color 0.2s ease-in; }
+    .button--white:hover {
+      background-color: #323232;
+      color: #ffffff; }
+  .button--play {
+    padding-left: 50px;
+    position: relative; }
+    .button--play::before {
+      position: absolute;
+      left: 30px;
+      top: 50%;
+      transform: translateY(-50%);
+      content: '';
+      display: block;
+      width: 12px;
+      height: 12px;
+      background-image: url("./../img/icons/play.svg");
+      background-size: initial;
+      background-repeat: no-repeat; }
 
 .clients {
   padding-top: 100px;
@@ -222,5 +244,38 @@ html, body {
 
 .card-info__title {
   font-weight: 700; }
+
+.cta {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+.cta__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 95px;
+  border-radius: 20px;
+  background-color: #58BEBF;
+  color: #ffffff; }
+
+.cta__img {
+  margin-top: 60px;
+  padding-top: 25px;
+  padding-right: 25px;
+  background-color: white;
+  border-radius: 0 20px 0 0; }
+
+.cta__text {
+  width: 380px; }
+  .cta__text p {
+    width: 320px; }
+
+.cta__title {
+  margin-bottom: 15px; }
+
+.cta__buttons-row {
+  margin-top: 30px;
+  display: flex;
+  column-gap: 20px; }
 
 /*# sourceMappingURL=main.css.map */
