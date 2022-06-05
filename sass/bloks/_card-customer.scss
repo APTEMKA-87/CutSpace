@@ -13,15 +13,31 @@
 
   transition: background-color 0.2s ease-in, color 0.2s ease-in;
 
+  &__icon {
+    margin-bottom: 15px;
+    fill: #F78434;
+    transition: fill 0.2s ease-in;
+  }
+
   &:hover {
     background-color: #f78434;
     color: #ffffff;
-  }
-}
 
-.card-customer__title {
+    .card-customer__icon {
+      fill: #ffffff;
+    }
+
+    .button {
+      background-color: #ffffff;
+      color: #f78434;
+    }
+
+
+  }
 }
 
 .card-customer__text {
   margin-bottom: 25px;
 }
+
+

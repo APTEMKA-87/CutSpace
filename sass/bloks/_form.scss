@@ -5,6 +5,10 @@
   height: 58px;
   transition: background-color 0.2s ease-in; // замедление смены цвета
 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   &--active {
     box-shadow: 0 17px 42px rgba(247, 132, 52, 0.27); // размытие фона вокруг
   }
@@ -15,6 +19,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-grow: 1;
   padding-left: 72px;
   height: 100%;
 
