@@ -367,13 +367,21 @@ html, body {
 
 .benefit-item {
   text-align: center; }
-
-.benefits-item__img {
-  margin-bottom: 15px;
-  display: inline-block; }
-
-.benefits-item__title {
-  margin-bottom: 2px;
-  font-size: 28px; }
+  .benefit-item__img {
+    margin-bottom: 15px;
+    display: inline-block; }
+    .benefit-item__img circle {
+      fill: rgba(88, 190, 191, 0.2);
+      transition: fill 0.2s ease-in; }
+    .benefit-item__img path, .benefit-item__img ellipse {
+      fill: #58BEBF;
+      transition: fill 0.2s ease-in; }
+  .benefit-item:hover .benefits-item__img circle {
+    fill: #F78434; }
+  .benefit-item:hover .benefits-item__img path, .benefit-item:hover .benefits-item__img ellipse {
+    fill: #ffffff; }
+  .benefit-item .benefits-item__title {
+    margin-bottom: 2px;
+    font-size: 28px; }
 
 /*# sourceMappingURL=main.css.map */
