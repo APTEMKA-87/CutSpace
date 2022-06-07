@@ -11,7 +11,7 @@
 }
 
 .testimonials__title {
-max-width: 452px;
+  max-width: 452px;
 }
 
 .title {
@@ -22,4 +22,6 @@ max-width: 452px;
 }
 
 .testimonials__row {
+  display: flex;
+  justify-content: space-between;
 }
