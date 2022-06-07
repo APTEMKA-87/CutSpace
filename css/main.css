@@ -384,4 +384,20 @@ html, body {
     margin-bottom: 2px;
     font-size: 28px; }
 
+.testimonials {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.testimonials__heading {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.testimonials__title {
+  max-width: 452px; }
+
+.testimonials__subtitle {
+  max-width: 400px; }
+
 /*# sourceMappingURL=main.css.map */
